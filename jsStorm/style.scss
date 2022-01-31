@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+#openOverlay {
+    height: 40px;
+    font-family: "Play";
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 20%;
+    background-color: rgba(195, 222, 216, 0.7);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .btn {
+        width: 20%;
+
+    }
+}
+
+.overlay {
+    font-family: "Play";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(51, 158, 212, .5);
+
+    &__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content {
+        width: 60%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 10px;
+        border: solid 3px rgba(195, 222, 216, 1);
+        border-radius: 10px;
+        box-shadow: inset 0 0 30px 5px rgba(195, 222, 216, .8);
+        font-size: 30px;
+
+        .close {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            background: rgba(195, 222, 216, 1);
+            font-size: 30px;
+            width: 30px;
+            height: 30px;
+            border: solid 5px;
+            padding-bottom: 3px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+}
+
+a, a:visited, a:active, a:focus {
+  color: #0091d9;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #e8c848;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.arrow {
+  font-size: 30px;
+}
+
+.slider {
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.list {
+  display: flex;
+  position: relative;
+  color: #444;
+  font-size: 30px;
+  right: 0;
+  transition: right .15s;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: papayawhip;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #444;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}

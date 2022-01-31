@@ -1,0 +1,175 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\000031}}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\000035}}
+#openOverlay {
+  height: 40px;
+  font-family: "Play";
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 20%;
+  background-color: rgba(195, 222, 216, 0.7); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000314}}
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000322}}
+  .container .btn {
+    width: 20%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000328}}
+.overlay {
+  font-family: "Play";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(51, 158, 212, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000338}}
+  .overlay__container {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000346}}
+  .overlay__content {
+    width: 60%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    padding: 10px;
+    border: solid 3px #c3ded8;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 30px 5px rgba(195, 222, 216, 0.8);
+            box-shadow: inset 0 0 30px 5px rgba(195, 222, 216, 0.8);
+    font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000359}}
+    .overlay__content .close {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      background: #c3ded8;
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+      border: solid 5px;
+      padding-bottom: 3px;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000379}}
+a, a:visited, a:active, a:focus {
+  color: #0091d9;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000384}}
+a:hover, a:active, a:focus {
+  color: #e8c848; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000388}}
+.slider-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000395}}
+.arrow {
+  font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\0000399}}
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\00003106}}
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  color: #444;
+  font-size: 30px;
+  right: 0;
+  -webkit-transition: right .15s;
+  transition: right .15s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\00003115}}
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: papayawhip;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #444; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\00003126}}
+ul {
+  padding: 0;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nikitasubarev\/Documents\/LOFTSCHOOL\/02_project_landing\/jsStorm\/style\.scss}line{font-family:\00003131}}
+li {
+  list-style: none; }
+
+/*# sourceMappingURL=style.css.map */
